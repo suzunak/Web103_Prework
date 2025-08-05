@@ -106,7 +106,7 @@ function ViewCreator() {
                                                         href={val.startsWith("http") ? val : `https://${val}`}
                                                         target="_blank"
                                                     > 
-                                                        <img className="media-logo" alt={`${key}-logo`} src={mediaLogos[key]} />
+                                                        <img className="each-media-logo" alt={`${key}-logo`} src={mediaLogos[key]} />
                                                         <p>{creatorMedias[key]}</p>
                                                     </a>
                                                 </div>
