@@ -1,0 +1,88 @@
+.EditCreator {
+    max-width: 100vw;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-start-column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+form {
+    max-width: 50vw;
+    width: 60vw;
+    height: 100%;
+    margin: 2rem;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input, textarea {
+    background-color: transparent;
+    color: black;
+    border: 1px black solid;
+    padding: 0.5rem;
+    font-family: monospace;
+}
+
+.edit-creator-form {
+    border: 1px black solid;
+    padding: 2rem;
+}
+
+.input-margin {
+    margin: 1rem 0rem 2rem 1rem;
+}
+
+#name {
+    width: 50%;
+}
+
+.description textarea{
+    max-width: 90%;
+    max-height: 15rem;
+    height: 15rem;
+}
+
+#description {
+    width: 90%;
+    height: 100%;
+}
+
+#imageURL, #url-YouTube, #url-Instagram, #url-TikTok, #url-X {
+    width: 70%;
+}
+
+.cancel-save-buttons {
+    width: 70%;
+    margin: 2rem;
+    height: 4rem;
+}
+
+.cancel-save-buttons button {
+    width: 15%;
+    height: 100%;
+
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.edit-form-cancel {
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+}
+
+.edit-form-save {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
