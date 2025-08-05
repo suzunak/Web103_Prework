@@ -1,0 +1,25 @@
+.NavBar {
+    max-width: 100%;
+    width: 100%;
+    max-height: 4rem;
+    height: 4rem;
+    border-bottom: 2px solid rgba(172, 163, 163, 0.591);
+}
+
+.flex-start-center-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#home-button {
+    margin-left: 5rem;
+
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+}
