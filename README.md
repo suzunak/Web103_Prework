@@ -36,7 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTltOWcwaDlkODd3ZWpsbDBsejA3dHFjcHI0bDFkaGI1cTdscDdzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pkEwU7iANHIvtHeB0k/giphy.gif' 
+<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTltOWcwaDlkODd3ZWpsbDBsejA3dHFjcHI0bDFkaGI1cTdscDdzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pkEwU7iANHIvtHeB0k/giphy.gif' 
    title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
    [Link to the video](https://www.capcut.com/view/7535510759595049525?workspaceId=7449161432454873094)
@@ -48,7 +48,7 @@ The most challenging part of this project was using the hook useState for nested
 
 ## License
 
-Copyright [👉🏿 2025] [👉🏿 Suzuna Kimura]
+Copyright [2025] [Suzuna Kimura]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
