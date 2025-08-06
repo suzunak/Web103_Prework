@@ -1,0 +1,46 @@
+html, body, #root {
+    padding: 0;
+    height: 100%;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+}
+
+.ShowCreators {
+    max-width: 100vw;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.flex-start-center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.card-container {
+    max-width: 80%;
+    width: 80vw;
+    height: auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    place-items: center;
+}

@@ -41,14 +41,21 @@ function EditCreator() {
 
     const navigate = useNavigate();
 
+    const defaultImage = 'https://www.relianceorthodontics.com/scs/extensions/SC/Manor/3.6.0/img/no_image_available.jpeg'
+
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        const updateData = {
+            ...creatorData,
+            imageURL: creatorData.imageURL.trim() === '' ? defaultImage : creatorData.imageURL
+        };
 
         console.log('updating creator')
 
         const { error } = await supabase 
             .from('creators')
-            .update(creatorData)
+            .update(updateData)
             .eq('id', creatorId);
 
         if (error) {
@@ -124,7 +131,6 @@ function EditCreator() {
                                 onChange={handleChange}
                                 className="input-margin"
                                 placeholder="Input image URL"
-                                required
                                 />
                             </div>
 
@@ -139,7 +145,6 @@ function EditCreator() {
                                 onChange={handleChange}
                                 className="input-margin"
                                 placeholder="Input YouTube URL"
-                                required
                                 />
                             </div>
 
@@ -153,7 +158,6 @@ function EditCreator() {
                                 onChange={handleChange}
                                 className="input-margin"
                                 placeholder="Input Instagram URL"
-                                required
                                 />
                             </div>
 
@@ -167,7 +171,6 @@ function EditCreator() {
                                 onChange={handleChange}
                                 className="input-margin"
                                 placeholder="Input TikTok URL"
-                                required
                                 />
                             </div>
 
@@ -181,13 +184,12 @@ function EditCreator() {
                                 onChange={handleChange}
                                 className="input-margin"
                                 placeholder="Input X URL"
-                                required
                                 />
                             </div>
                         </form>
 
                     ):(
-                        <p>loading</p>
+                        <p className="loading">loading...</p>
                     )
             }
 

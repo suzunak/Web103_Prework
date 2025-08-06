@@ -74,7 +74,7 @@ function ViewCreator() {
 
     if (loading) {
         return(
-            <p>loading</p>
+            <div className="loading">loading...</div>
         )
     };
 

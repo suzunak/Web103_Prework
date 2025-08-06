@@ -19,8 +19,13 @@ function Card( { id, user_img_url, username, social_platforms, description } ) {
     console.log('Showing cards')
 
     const navigate = useNavigate();
+
     const handleViewCreator = () => {
         navigate(`view-creator/${id}`);
+    }
+
+    const handleEditCreator = () => {
+        navigate(`edit-creator/${id}`)
     }
 
     return (
@@ -32,7 +37,7 @@ function Card( { id, user_img_url, username, social_platforms, description } ) {
                         <button className="info-button flex-center-column" onClick={handleViewCreator}>
                             <img src="/info-black.png" alt="info-icon"/>
                         </button>
-                        <button className="edit-button flex-center-column">
+                        <button className="edit-button flex-center-column" onClick={handleEditCreator}>
                             <img src="/edit-black.png" alt="edit-icon"/>
                         </button>
                     </div>

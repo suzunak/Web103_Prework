@@ -1,7 +1,7 @@
 .ViewCreator {
     max-width: 100%;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
 }
 
@@ -85,4 +85,5 @@
 .edit-delete-container {
     width: 60vw;
     height: 10vh;
+    margin-bottom: 3rem;
 }

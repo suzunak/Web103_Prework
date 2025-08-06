@@ -22,11 +22,16 @@ function AddCreator() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const addData = {
+            ...addCreator,
+            imageURL: addCreator.imageURL.trim() === '' ? null : addCreator.imageURL
+        };
+
         console.log('updating creator')
 
         const { error } = await supabase 
             .from('creators')
-            .insert(addCreator)
+            .insert(addData)
 
         if (error) {
             console.error('Error: ', error)
@@ -99,7 +104,6 @@ function AddCreator() {
                     onChange={handleChange}
                     className="input-margin"
                     placeholder="Input image URL"
-                    required
                     />
                 </div>
 
