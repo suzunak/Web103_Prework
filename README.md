@@ -36,10 +36,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTltOWcwaDlkODd3ZWpsbDBsejA3dHFjcHI0bDFkaGI1cTdscDdzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pkEwU7iANHIvtHeB0k/giphy.gif' 
+<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjBwd2UzZzNjN2xoYzJ3YTdveHpxaTdicWZ5NWU4MjkxcmE2MWZ4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ynIHLwZAHzUqXVg9pN/giphy.gif' 
    title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-   [Link to the video](https://www.capcut.com/view/7535510759595049525?workspaceId=7449161432454873094)
+   [Link to the video](https://www.capcut.com/view/7536312929415742005?workspaceId=7449161432454873094)
 
 GIF created with GIPHY
 
